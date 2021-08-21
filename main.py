@@ -1,7 +1,7 @@
 from BsClass import *
 
-username = "tugkan.ozkan@mechsoft.com.tr"
-password = "5943b77D."
+username = ""
+password = ""
 drive = Driver(username=username,password=password)
 
 drive.LoginCO()
@@ -11,7 +11,7 @@ DateList = drive.DateList(AllList)
 MixedList = drive.MixedList(DateList,TextList)
 
 
-FirstSentence = "Merhabalar Kerim Bey,<br>    Haftalık çalışma notlarım şu şekildedir:"
+FirstSentence = ""
 To = ""
 Subject = ""
 CC = ""
